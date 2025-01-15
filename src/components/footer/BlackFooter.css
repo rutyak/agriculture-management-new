@@ -1,0 +1,137 @@
+.footer {
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto 1fr;
+    background-color: #121212;
+}
+
+.subscribe-section {
+  padding-bottom: 20px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color:white;
+}
+
+.subscribe-section h2 {
+  font-size: 0.9375rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.links-section2 {
+  display: flex;
+  gap: 109px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+}
+
+.links-section2-title-desc{
+    width: 530px;
+}
+
+.links-section2-title-desc p{
+   font-size: 0.87rem;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+
+.email-input {
+  flex: 1 1;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background: #121212;
+  color: white;
+  font-size: 18px;
+  outline: none;
+  font-weight: bold;
+}
+
+.email-input::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+.submit-button {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 0.875rem;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.subscribe-text {
+  font-size: 0.875rem;
+  color: #cccccc;
+}
+
+.privacy-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.subscribe-section .links-section {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.subscribe-section .input-section {
+  width: 40%;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.column h3 {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.column ul li {
+  margin-bottom: 5px;
+}
+
+.column ul li a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.column ul li a:hover {
+  color: #ffffff;
+}
+
+.column ul li span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.footer-note {
+  font-size: 0.93rem;
+  color: #fffef2;
+  font-family: Suisse Regular, sans-serif;
+  padding: 14px 40px;
+}

@@ -1,0 +1,51 @@
+.assistance-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  height: 384px;
+  background-color: #f6f0e9;
+  font-family: "Times New Roman", serif;
+  color: #333;
+  margin-bottom: 119px;
+}
+
+.assistance-left {
+  flex: 1;
+}
+
+.assistance-left h2 {
+  font-size: 1.875rem;
+}
+
+.assistance-right {
+  flex: 2;
+  text-align: left;
+}
+
+.assistance-right p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.consultant-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  background: none;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.consultant-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.arrow {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}

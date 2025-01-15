@@ -1,0 +1,38 @@
+  .feature-section {
+    padding: 4rem 2rem;
+    background-color: #ebeade; 
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .feature-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+  }
+  
+  .feature-icon {
+    font-size: 2rem; 
+    margin-bottom: 1rem;
+  }
+  
+  .feature-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+  
+  .feature-description {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 300px;
+  }
+  

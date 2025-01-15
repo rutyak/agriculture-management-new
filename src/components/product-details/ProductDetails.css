@@ -1,0 +1,58 @@
+  .productdeatails-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+    padding: 50px;
+    background-image: url("https://www.aesop.com/u1nb1km7t5q7/5bckL6me2WC2WKyWW9Nxj2/c57a001a0474698d945d9ce4204bd75c/Aesop_Category_Page_Secondary_3_Full_Bleed_Desktop_2880x1044px.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .text-content {
+    max-width: 50%;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6d6d6d;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #2d2d2d;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #2d2d2d;
+  }
+  
+  .cta-button:hover {
+    background-color: #2d2d2d;
+    color: #fff;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  

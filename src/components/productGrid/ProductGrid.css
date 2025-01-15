@@ -1,0 +1,44 @@
+.product-page {
+    font-family: Arial, sans-serif;
+    padding: 5px;
+    margin-bottom: 147px;
+}
+
+.product-page h1 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: #333;
+    padding: 54px 49px;
+    font-family: Zapf Humanist, serif;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1px;
+  margin: 0 auto;
+}
+
+.productype-card {
+  position: relative;
+  overflow: hidden;
+  height: 298px;
+}
+
+.productype-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  height: 100%;
+}
+
+.product-title {
+    position: absolute;
+    top: 19px;
+    left: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}

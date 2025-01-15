@@ -1,0 +1,45 @@
+  
+  .article-page {
+    padding: 2rem 4rem;
+  }
+  
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .article-card {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+  
+  .article-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .article-content {
+    text-align: left;
+  }
+  
+  .article-category {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .article-title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #000;
+  }
+  
+  .article-read-time {
+    font-size: 1rem;
+    color: #777;
+  }
+  
